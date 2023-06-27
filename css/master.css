@@ -1,0 +1,60 @@
+body{
+    background-color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.weather-app{
+    background-color: rgb(137, 137, 204);
+    color: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.weather-app .search-city{
+display: flex;
+gap: 30px;
+}
+.weather-app .search-city input{
+flex: 1;
+padding: 10px 15px;
+border-radius: 50px;
+border: none;
+outline: none;
+}
+.weather-app .search-city i{
+    cursor: pointer;
+    background-color: white;
+    color: grey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.weather-app .informations > img{
+    width: 150px;
+}
+.weather-app .informations .deg{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.weather-app .informations .name{
+    font-size: 50px;
+}
+.weather-app .informations .stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.weather-app .informations .stats img{
+    width: 30px;
+}
+.weather-app .informations .stats .info{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
